@@ -1,3 +1,7 @@
+# Repository in which I improve my CV created in JavaScript. 
+This  link to the original CV : 
+nazariimrochko.github.io
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
