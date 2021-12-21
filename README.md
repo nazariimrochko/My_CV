@@ -1,6 +1,5 @@
 # Repository in which I improve my CV created in JavaScript. 
-This  link to the original CV : 
-nazariimrochko.github.io
+This  link to the original CV :https://github.com/nazariimrochko/nazariimrochko.github.io
 
 # Getting Started with Create React App
 
