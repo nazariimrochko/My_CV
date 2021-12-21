@@ -1,2 +1,2 @@
 # My_CV
-Repository in which I created my CV. 
+Repository in which I have been created my CV. 
