@@ -5,7 +5,7 @@ const Button = (props) => {
 
     return (
         <div>
-            <button  className={s.button1} type="text">{props.text}</button>
+            <button onClick={props.onClickHandler} className={s.button1} type="text">{props.text}</button>
         </div>
     );
 };
