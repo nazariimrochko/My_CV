@@ -32,7 +32,7 @@
 
 .from_title {
     margin: 10px 0;
-    font-size: 20px;
+    font-size: 18px;
 }
 .about_wrap {
     padding: 8px;
@@ -48,4 +48,13 @@
     background: rgb(187, 187, 187);
     background: linear-gradient(90deg, rgba(187, 187, 187, 0.8547794117647058) 0%,
     rgba(255, 175, 104, 0.44861694677871145) 100%);
+}
+
+.content {
+    padding: 8px;
+    margin: 5px;
+    /*display: none;*/
+    overflow: hidden;
+    background-color: #f1f1f1;
+    transition: all 1.8s ease-in-out;
 }

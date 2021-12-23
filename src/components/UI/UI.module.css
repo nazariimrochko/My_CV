@@ -13,3 +13,7 @@
     background: linear-gradient(90deg, rgba(187, 187, 187, 0.8547794117647058) 0%,
     rgba(255, 175, 104, 0.44861694677871145) 100%);
 }
+.active,
+.title:hover {
+    background-color: #f0d7b4;
+}

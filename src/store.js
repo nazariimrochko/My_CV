@@ -15,7 +15,7 @@ const store = {
             title: 'About me',
         },
         work: {
-            place: 'Dynar.com.ua',
+            company: '"Dynar.com.ua"',
             time: ' August 2018 — January 2020',
             position: 'Head of technological and production process',
             description: 'The company is engaged in various types of printing on fabric and not only ' +
@@ -29,7 +29,7 @@ const store = {
             time: ' September 2011 - May 2014',
             position: 'Computer operator',
             description: 'College of Computer Technology and Construction.',
-            title: 'Work Experience',
+            title: 'Education',
         },
         project: {
             list: [
