@@ -1,11 +1,11 @@
 import React from "react";
 import './App.css';
-import BoxName from "./components/SectionLeft/BoxName/BoxName";
+import SectionLeft from "./components/SectionLeft/SectionLeft";
 
 const App = (props) => {
   return (
         <div className = "container">
-            <BoxName store={props.store.nazarMrochko.general}/>
+            <SectionLeft store={props.store.nazarMrochko}/>
         </div>
   );
 }

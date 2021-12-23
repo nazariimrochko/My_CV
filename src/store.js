@@ -2,7 +2,7 @@ const store = {
     nazarMrochko: {
         general: {
             fullName: 'Nazarii Mrochko',
-            age: '25',
+            age: '25 years old',
             live: 'Lviv Ukraine',
             profession: 'Trainee (intern) Frontend developer',
         },

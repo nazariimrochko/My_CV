@@ -1,7 +1,7 @@
 import React from 'react';
 import s from '../SectionLeft.module.css'
 
-const BoxName  = (props) => {
+const BlockName  = (props) => {
     return (
         <div className={s.box_name}>
             <h1 className={s.name}>{props.store.fullName}</h1>
@@ -10,4 +10,4 @@ const BoxName  = (props) => {
     );
 };
 
-export default BoxName;
+export default BlockName;
