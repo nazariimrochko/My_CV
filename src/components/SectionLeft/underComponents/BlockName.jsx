@@ -1,11 +1,11 @@
 import React from 'react';
 import s from '../SectionLeft.module.css'
 
-const BlockName  = (props) => {
+const BlockName  = ({store}) => {
     return (
         <div className={s.box_name}>
-            <h1 className={s.name}>{props.store.fullName}</h1>
-            <h3>{props.store.profession}</h3>
+            <h1 className={s.name}>{store.fullName}</h1>
+            <h3>{store.profession}</h3>
         </div>
     );
 };

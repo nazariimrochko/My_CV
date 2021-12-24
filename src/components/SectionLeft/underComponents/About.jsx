@@ -1,15 +1,15 @@
 import React from 'react';
 import s from '../SectionLeft.module.css'
 
-const About = (props) => {
+const About = ({store}) => {
     return (
         <section>
             <div>
                 <h4 className={s.about_title}>About me</h4>
             </div>
             <div className={s.about_wrap}>
-                <span className={s.from_title}>From : {props.store.general.live} Age : {props.store.general.age}</span>
-                <p className={s.about_text}>{props.store.about.text}</p>
+                <span className={s.from_title}>From : {store.general.live} Age : {store.general.age}</span>
+                <p className={s.about_text}>{store.about.text}</p>
             </div>
         </section>
     );
