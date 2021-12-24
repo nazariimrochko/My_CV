@@ -33,13 +33,34 @@ const store = {
         },
         project: {
             list: [
-                {link: 'https://github.com/nazariimrochko/Creative.loc', title: 'Creative.loc_______[HTML_CSS_SCSS]'},
-                {link: 'https://github.com/nazariimrochko/Stopwatch', title: 'Stopwatch________[HTML_CSS_JavaScript]'},
-                {link: 'https://github.com/nazariimrochko/ToDo-List', title: 'ToDo-list__________[HTML_CSS_JavaScript]'},
-                {link: 'https://github.com/nazariimrochko/Book-List', title: 'Book-list__________[React_JavaScript]'},
-                {link: 'https://github.com/nazariimrochko/Picture_slider', title: 'Gallery-slider____[HTML_CSS_JavaScript]'},
-                {link: 'https://github.com/nazariimrochko/Picture-gallery', title: 'Picture-gallery____[HTML_CSS_JavaScript]'},
-                {link: 'https://github.com/nazariimrochko/Hover-board', title: 'Hover-board_____[HTML_CSS_JavaScript]'},
+                {
+                    link: 'https://github.com/nazariimrochko/Creative.loc',
+                    title: 'Creative.loc_______[HTML_CSS_SCSS]'
+                },
+                {
+                    link: 'https://github.com/nazariimrochko/Stopwatch',
+                    title: 'Stopwatch________[HTML_CSS_JavaScript]'
+                },
+                {
+                    link: 'https://github.com/nazariimrochko/ToDo-List',
+                    title: 'ToDo-list__________[HTML_CSS_JavaScript]'
+                },
+                {
+                    link: 'https://github.com/nazariimrochko/Book-List',
+                    title: 'Book-list__________[React_JavaScript]'
+                },
+                {
+                    link: 'https://github.com/nazariimrochko/Picture_slider',
+                    title: 'Gallery-slider____[HTML_CSS_JavaScript]'
+                },
+                {
+                    link: 'https://github.com/nazariimrochko/Picture-gallery',
+                    title: 'Picture-gallery____[HTML_CSS_JavaScript]'
+                },
+                {
+                    link: 'https://github.com/nazariimrochko/Hover-board',
+                    title: 'Hover-board_____[HTML_CSS_JavaScript]'
+                },
 
             ],
             title: 'Project in Git-Hub',
