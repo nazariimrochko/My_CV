@@ -10,7 +10,6 @@ const App = ({store}) => {
               <SectionLeft store={store.nazarMrochko}/>
               <SectionRight store={store.nazarMrochko.personInfo}/>
           </div>
-
   );
 }
 

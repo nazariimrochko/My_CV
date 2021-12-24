@@ -2,11 +2,9 @@ import React from 'react';
 import s from '../SectionRight.module.css'
 
 const SectionList = ({personInfo, active}) => {
-     const dataList = personInfo.skills
-    console.log(dataList)
+    const dataList = personInfo.skills
 
-    let contentList = dataList.map((obj,index) => <li key={index}>{obj}</li> )
-console.log(contentList)
+    let contentList = dataList.map((obj, index) => <li key={index}>{obj}</li>)
 
     return (
         <section className={active ? `${s.content_list} ${s.active}` : s.content_list}>

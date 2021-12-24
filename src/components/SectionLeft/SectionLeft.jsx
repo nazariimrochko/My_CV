@@ -8,7 +8,6 @@ import Button from "../UI/Button";
 import BlockEducation from "./underComponents/BlockEducation";
 import BlockProject from "./underComponents/BlockProject";
 
-
 const SectionLeft = ({store}) => {
     const [workActive, setWorkActive] = useState(false)
     const [educationActive, setEducationActive] = useState(false)
@@ -20,10 +19,12 @@ const SectionLeft = ({store}) => {
             <About store={store}/>
             <Button onClickHandler={() => setWorkActive(!workActive)} text={store.work.title} style={sb.button1}/>
             <BlockWorks active={workActive} store={store.work}/>
-            <Button onClickHandler={() => setEducationActive(!educationActive)} text={store.education.title} style={sb.button1}/>
-            <BlockEducation active={educationActive} store={store.education} />
-            <Button onClickHandler={() => setProjectActive(!projectActive)} text={store.project.title} style={sb.button1}/>
-            <BlockProject active={projectActive} project={store.project} />
+            <Button onClickHandler={() => setEducationActive(!educationActive)} text={store.education.title}
+                    style={sb.button1}/>
+            <BlockEducation active={educationActive} store={store.education}/>
+            <Button onClickHandler={() => setProjectActive(!projectActive)} text={store.project.title}
+                    style={sb.button1}/>
+            <BlockProject active={projectActive} project={store.project}/>
         </section>
     );
 };

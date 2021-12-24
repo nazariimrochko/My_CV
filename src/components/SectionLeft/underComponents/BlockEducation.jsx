@@ -7,9 +7,7 @@ const BlockEducation = ({store, active}) => {
             <span>{store.description}</span><br/>
             <span>{store.time} | {store.place} </span>
             <h4 className={s.from_title}>{store.position}</h4>
-
         </div>
     );
 };
-
 export default BlockEducation;

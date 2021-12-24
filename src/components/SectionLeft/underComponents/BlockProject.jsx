@@ -4,16 +4,13 @@ import s from "../SectionLeft.module.css";
 const BlockProject = ({project, active}) => {
     let arrProject = project.list
 
-    let listProject = arrProject.map((obj,index) => {
-
-        return(
+    let listProject = arrProject.map((obj, index) => {
+        return (
             <li key={index}>
                 <a href={obj.link}>{obj.title}</a>
             </li>
         )
-
     })
-
 
     return (
         <div className={active ? `${s.content} ${s.active}` : s.content}>

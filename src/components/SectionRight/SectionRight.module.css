@@ -1,8 +1,8 @@
-ul{
+ul {
     padding-left: 20px;
 }
 
-.content_wrap{
+.content_wrap {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -21,10 +21,11 @@ ul{
     display: flex;
     width: 100%
 }
+
 .photo {
-    width:100%;
+    width: 100%;
     border-radius: 2px;
-    box-shadow:  0 0 5px 2px #5A5B5C;
+    box-shadow: 0 0 5px 2px #5A5B5C;
 }
 
 .content_list {
@@ -32,8 +33,9 @@ ul{
     padding: 5px;
     overflow: hidden;
     font-size: 16px;
-    transition: all 0.8s ;
+    transition: all 0.8s;
 }
-.content_list.active{
+
+.content_list.active {
     display: block;
 }
