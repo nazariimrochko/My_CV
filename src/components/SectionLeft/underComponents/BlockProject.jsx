@@ -1,5 +1,5 @@
 import React from 'react';
-import './BlockWork/BlockWork.css'
+import s from "../SectionLeft.module.css";
 
 const BlockProject = ({project, active}) => {
     let arrProject = project.list
@@ -18,8 +18,8 @@ const BlockProject = ({project, active}) => {
 
 
     return (
-        <div className={active ? 'content active' : 'content'}>
-            <span className="from_title">Link to the site with mini-projects </span>
+        <div className={active ? `${s.content} ${s.active}` : s.content}>
+            <span className={s.from_title}>Link to the site with mini-projects </span>
             <ol>{listProject}</ol>
         </div>
     );
