@@ -14,8 +14,6 @@ const BlockProject = ({project, active}) => {
 
     })
 
-    console.log(listProject)
-
 
     return (
         <div className={active ? `${s.content} ${s.active}` : s.content}>

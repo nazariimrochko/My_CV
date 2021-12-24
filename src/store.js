@@ -1,5 +1,6 @@
 const store = {
     nazarMrochko: {
+
         general: {
             fullName: 'Nazarii Mrochko',
             age: '25 years old',
@@ -62,44 +63,50 @@ const store = {
                     title: 'Hover-board_____[HTML_CSS_JavaScript]'
                 },
 
+
             ],
             title: 'Project in Git-Hub',
             type: 'lest',
         },
-        contact: {
-            phone: '(+380)-93-046-2229',
-            email: 'nazik409@gmai.com',
-            linkedIn: 'www.linkedin.com',
-            title: 'Contact info',
-        },
+        personInfo: {
 
-        languages: {
-            UA: 'Ukrainian (native)',
-            EN: '',
-            title: ' Languages',
-        },
-        techSkills: {
-            skills: [
-                'HTML',
-                'CSS',
-                'SASS',
-                'GIT',
-                'JavaScript',
-                'React ',
-            ],
-            title: 'Tech Skills',
-        },
-        personalSkills: {
-            skills: [
-                'Responsible',
-                'Organized',
-                'Creative',
-                'Teamwork',
-                'Motivated',
-                'Communicable',
-                'Friendly',
-            ],
-            title: 'Personal Skills',
+            photo: 'https://nazariimrochko.github.io/img/my-photo.jpg',
+
+            contact: {
+                phone: '(+380)-93-046-2229',
+                email: 'nazik409@gmai.com',
+                linkedIn: 'www.linkedin.com',
+                title: 'Contact info',
+            },
+
+            languages: {
+                UA: 'Ukrainian (native)',
+                EN: 'A-2',
+                title: ' Languages',
+            },
+            techSkills: {
+                skills: [
+                    'HTML',
+                    'CSS',
+                    'SASS',
+                    'GIT',
+                    'JavaScript',
+                    'React ',
+                ],
+                title: 'Tech Skills',
+            },
+            personalSkills: {
+                skills: [
+                    'Responsible',
+                    'Organized',
+                    'Creative',
+                    'Teamwork',
+                    'Motivated',
+                    'Communicable',
+                    'Friendly',
+                ],
+                title: 'Personal Skills',
+            }
         }
 
     }

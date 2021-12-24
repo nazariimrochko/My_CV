@@ -1,3 +1,10 @@
+.block_left {
+    transition: padding 1s ease-out, width 1s ease-out;
+    width: 75%;
+    padding-right:  10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
 
 .box_name {
     display: flex;
@@ -45,6 +52,7 @@
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
+    box-shadow:  0 0 5px 1px #7e7e7e;
     background: rgb(187, 187, 187);
     background: linear-gradient(90deg, rgba(187, 187, 187, 0.8547794117647058) 0%,
     rgba(255, 175, 104, 0.44861694677871145) 100%);
