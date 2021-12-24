@@ -1,15 +1,14 @@
 import React from 'react';
-import './BlockWork.css'
+import s from "../../SectionLeft.module.css";
 
-const BlockWorks = (props) => {
+const BlockWorks = ({store, active}) => {
 
     return (
-        <div className={props.active ?'content active ' : 'content'}>
-            <h5 className='from_title'>{props.store.company} {props.store.time}</h5>
-            <span>{props.store.position}</span>
-            <p>{props.store.description}</p>
+        <div className={active ? `${s.content} ${s.active}` : s.content}>
+            <h4 className={s.from_title}>{store.company} {store.time}</h4>
+            <span>{store.position}</span>
+            <p>{store.description}</p>
         </div>
-
     );
 };
 
