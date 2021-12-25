@@ -69,23 +69,24 @@ const store = {
             type: 'lest',
         },
         personInfo: {
-
             photo: 'https://nazariimrochko.github.io/img/my-photo.jpg',
-
             contact: {
                 phone: '(+380)-93-046-2229',
                 email: 'nazik409@gmai.com',
                 linkedIn: 'www.linkedin.com',
+                linkedInlink: 'https://www.linkedin.com/in/nazarii-mrochko-0055281b3/',
                 title: 'Contact info',
             },
 
             languages: {
-                UA: 'Ukrainian (native)',
-                EN: 'A-2',
+                items: [
+                    'UA: Ukrainian (native)',
+                    'EN: A-2',
+                ],
                 title: ' Languages',
             },
             techSkills: {
-                skills: [
+                items: [
                     'HTML',
                     'CSS',
                     'SASS',
@@ -96,7 +97,7 @@ const store = {
                 title: 'Tech Skills',
             },
             personalSkills: {
-                skills: [
+                items: [
                     'Responsible',
                     'Organized',
                     'Creative',

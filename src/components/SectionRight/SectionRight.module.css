@@ -1,7 +1,10 @@
 ul {
     padding-left: 20px;
 }
-
+a{
+    color:#39a2d6;
+    text-decoration: none;
+}
 .content_wrap {
     display: flex;
     flex-direction: column;
@@ -26,6 +29,18 @@ ul {
     width: 100%;
     border-radius: 2px;
     box-shadow: 0 0 5px 2px #5A5B5C;
+}
+.list_info {
+    transition: padding 0.8s ease-out, width 0.8s;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5px;
+    list-style: none;
+}
+
+.box_infomation {
+    align-content: center;
 }
 
 .content_list {

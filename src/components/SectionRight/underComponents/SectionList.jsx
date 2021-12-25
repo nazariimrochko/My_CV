@@ -2,7 +2,7 @@ import React from 'react';
 import s from '../SectionRight.module.css'
 
 const SectionList = ({personInfo, active}) => {
-    const dataList = personInfo.skills
+    const dataList = personInfo.items
 
     let contentList = dataList.map((obj, index) => <li key={index}>{obj}</li>)
 
