@@ -13,11 +13,12 @@ const SectionRight = ({store}) => {
     return (
         <section className={s.content_wrap}>
             <BlockPhoto store={store}/>
-            <Button text={store.contact.title} style={sb.button2}/>
+            <Button text={store.contact.title} style={sb.title}/>
             <BlockInfo personInfo={store.contact}/>
-            <Button text={store.languages.title} style={sb.button2}/>
+            <Button text={store.languages.title} style={sb.title}/>
             <SectionList active={true} personInfo={store.languages}/>
-            <Button onClickHandler={() => setTechActive(!techActive)} text={store.techSkills.title} style={sb.button2}/>
+            <Button onClickHandler={() => setTechActive(!techActive)} text={store.techSkills.title}
+                    style={sb.button2}/>
             <SectionList active={techActive} personInfo={store.techSkills}/>
             <Button onClickHandler={() => setPersonalActive(!personalActive)} text={store.personalSkills.title}
                     style={sb.button2}/>
