@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import s from './SectionNav.module.css'
 import BlockPhoto from "./componentsNav/BlockPhoto";
 import Button from "../shared/Button";
-import sb from "../shared/UI.module.css";
+import sb from "../shared/Button.module.css";
 import SectionList from "./componentsNav/SectionList";
 import BlockInfo from "./componentsNav/BlockInfo";
 

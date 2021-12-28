@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import s from './SectionMain.module.css'
-import sb from '../shared/UI.module.css'
+import sb from '../shared/Button.module.css'
 import BlockName from "./componentsMain/BlockName";
 import About from "./componentsMain/About";
 import BlockWorks from "./componentsMain/BlockWorks";
