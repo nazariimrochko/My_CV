@@ -1,5 +1,5 @@
 import React from 'react';
-import s from "../SectionLeft.module.css";
+import s from "../SectionMain.module.css";
 
 const BlockWorks = ({store, active}) => {
 

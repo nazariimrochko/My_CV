@@ -1,5 +1,5 @@
 import React from 'react';
-import s from '../SectionRight.module.css'
+import s from '../SectionNav.module.css'
 import {ImPhone} from "react-icons/im";
 import {ImLinkedin2} from "react-icons/im";
 import {ImMail} from "react-icons/im";

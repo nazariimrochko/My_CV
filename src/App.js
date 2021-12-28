@@ -1,14 +1,14 @@
 import React from "react";
 import './App.css';
-import SectionLeft from "./components/SectionLeft/SectionLeft";
-import SectionRight from "./components/SectionRight/SectionRight";
+import SectionMain from "./components/SectionMain/SectionMain";
+import SectionNav from "./components/SectionRight/SectionNav";
 
 
 const App = ({store}) => {
   return (
           <div className = "container">
-              <SectionLeft store={store.nazarMrochko}/>
-              <SectionRight store={store.nazarMrochko.personInfo}/>
+              <SectionMain store={store.nazarMrochko}/>
+              <SectionNav store={store.nazarMrochko.personInfo}/>
           </div>
   );
 }

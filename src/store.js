@@ -85,7 +85,7 @@ const store = {
                 ],
                 title: ' Languages',
             },
-            techSkills: {
+            details: [{
                 items: [
                     'HTML',
                     'CSS',
@@ -95,8 +95,7 @@ const store = {
                     'React ',
                 ],
                 title: 'Tech Skills',
-            },
-            personalSkills: {
+            }, {
                 items: [
                     'Responsible',
                     'Organized',
@@ -107,7 +106,10 @@ const store = {
                     'Friendly',
                 ],
                 title: 'Personal Skills',
-            }
+
+            },],
+
+
         }
 
     }

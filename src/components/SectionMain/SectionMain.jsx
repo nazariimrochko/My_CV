@@ -1,14 +1,14 @@
 import React, {useState} from 'react';
-import s from './SectionLeft.module.css'
-import sb from '../UI/UI.module.css'
-import BlockName from "./underComponents/BlockName";
-import About from "./underComponents/About";
-import BlockWorks from "./underComponents/BlockWorks";
-import Button from "../UI/Button";
-import BlockEducation from "./underComponents/BlockEducation";
-import BlockProject from "./underComponents/BlockProject";
+import s from './SectionMain.module.css'
+import sb from '../shared/UI.module.css'
+import BlockName from "./componentsMain/BlockName";
+import About from "./componentsMain/About";
+import BlockWorks from "./componentsMain/BlockWorks";
+import Button from "../shared/Button";
+import BlockEducation from "./componentsMain/BlockEducation";
+import BlockProject from "./componentsMain/BlockProject";
 
-const SectionLeft = ({store}) => {
+const SectionMain = ({store}) => {
     const [workActive, setWorkActive] = useState(false)
     const [educationActive, setEducationActive] = useState(false)
     const [projectActive, setProjectActive] = useState(false)
@@ -29,6 +29,6 @@ const SectionLeft = ({store}) => {
     );
 };
 
-export default SectionLeft;
+export default SectionMain;
 
 

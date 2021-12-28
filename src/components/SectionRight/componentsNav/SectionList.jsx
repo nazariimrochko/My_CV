@@ -1,10 +1,9 @@
 import React from 'react';
-import s from '../SectionRight.module.css'
+import s from '../SectionNav.module.css'
 
 const SectionList = ({personInfo, active}) => {
-    const dataList = personInfo.items
 
-    let contentList = dataList.map((obj, index) => <li key={index}>{obj}</li>)
+    let contentList = personInfo.map((item, index) => <li key={index}>{item}</li>)
 
     return (
         <section className={active ? `${s.content_list} ${s.active}` : s.content_list}>

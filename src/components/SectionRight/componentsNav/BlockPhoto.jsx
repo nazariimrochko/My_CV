@@ -1,5 +1,5 @@
 import React from 'react';
-import s from '../SectionRight.module.css'
+import s from '../SectionNav.module.css'
 
 const BlockPhoto = ({store}) => {
     return (
