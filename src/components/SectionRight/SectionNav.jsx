@@ -13,6 +13,7 @@ const SectionNav = ({store}) => {
         const setActiveHandler = () => {
             setActive({...active, ...{[index]: !active[index]}})
         }
+
         return (
             <div key={index}>
                 <Button onClickHandler={setActiveHandler} text={item.title}

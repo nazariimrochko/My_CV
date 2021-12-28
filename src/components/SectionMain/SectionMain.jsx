@@ -3,28 +3,33 @@ import s from './SectionMain.module.css'
 import sb from '../shared/Button.module.css'
 import BlockName from "./componentsMain/BlockName";
 import About from "./componentsMain/About";
-import BlockWorks from "./componentsMain/BlockWorks";
 import Button from "../shared/Button";
-import BlockEducation from "./componentsMain/BlockEducation";
-import BlockProject from "./componentsMain/BlockProject";
+import ContentBox from "./componentsMain/ContentBox";
+
 
 const SectionMain = ({store}) => {
-    const [workActive, setWorkActive] = useState(false)
-    const [educationActive, setEducationActive] = useState(false)
-    const [projectActive, setProjectActive] = useState(false)
+    const [active, setActive] = useState({})
+
+    const getContentBox = [store.work, store.education, store.project].map((item, index) => {
+
+        const setActiveHandler = () => {
+            setActive({...active, ...{[index]: !active[index]}})
+        }
+        return (
+            <div key={index}>
+                <Button onClickHandler={setActiveHandler} text={item.title}
+                        style={sb.button1}/>
+                <ContentBox active={active[index]} content={item}/>
+            </div>
+        )
+
+    })
 
     return (
         <section className={s.block_left}>
             <BlockName store={store.general}/>
             <About store={store}/>
-            <Button onClickHandler={() => setWorkActive(!workActive)} text={store.work.title} style={sb.button1}/>
-            <BlockWorks active={workActive} store={store.work}/>
-            <Button onClickHandler={() => setEducationActive(!educationActive)} text={store.education.title}
-                    style={sb.button1}/>
-            <BlockEducation active={educationActive} store={store.education}/>
-            <Button onClickHandler={() => setProjectActive(!projectActive)} text={store.project.title}
-                    style={sb.button1}/>
-            <BlockProject active={projectActive} project={store.project}/>
+            {getContentBox}
         </section>
     );
 };

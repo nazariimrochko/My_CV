@@ -27,40 +27,42 @@ const store = {
         },
         education: {
             place: 'Lviv. Ukraine',
-            time: ' September 2011 - May 2014',
-            position: 'Computer operator',
-            description: 'College of Computer Technology and Construction.',
+            time: '(September 2011 - May 2014)',
+            position: 'Car mechanic',
+            description: 'College of Computer Technology and Construction.' +
+                        'I studied the structure and principle of operation of the car engine,' +
+                        ' as well as repair and maintenance of the car',
             title: 'Education',
         },
         project: {
             list: [
                 {
                     link: 'https://github.com/nazariimrochko/Creative.loc',
-                    title: 'Creative.loc_______[HTML_CSS_SCSS]'
+                    name: 'Creative.loc_______[HTML_CSS_SCSS]'
                 },
                 {
                     link: 'https://github.com/nazariimrochko/Stopwatch',
-                    title: 'Stopwatch________[HTML_CSS_JavaScript]'
+                    name: 'Stopwatch________[HTML_CSS_JavaScript]'
                 },
                 {
                     link: 'https://github.com/nazariimrochko/ToDo-List',
-                    title: 'ToDo-list__________[HTML_CSS_JavaScript]'
+                    name: 'ToDo-list__________[HTML_CSS_JavaScript]'
                 },
                 {
                     link: 'https://github.com/nazariimrochko/Book-List',
-                    title: 'Book-list__________[React_JavaScript]'
+                    name: 'Book-list__________[React_JavaScript]'
                 },
                 {
                     link: 'https://github.com/nazariimrochko/Picture_slider',
-                    title: 'Gallery-slider____[HTML_CSS_JavaScript]'
+                    name: 'Gallery-slider____[HTML_CSS_JavaScript]'
                 },
                 {
                     link: 'https://github.com/nazariimrochko/Picture-gallery',
-                    title: 'Picture-gallery____[HTML_CSS_JavaScript]'
+                    name: 'Picture-gallery____[HTML_CSS_JavaScript]'
                 },
                 {
                     link: 'https://github.com/nazariimrochko/Hover-board',
-                    title: 'Hover-board_____[HTML_CSS_JavaScript]'
+                    name: 'Hover-board_____[HTML_CSS_JavaScript]'
                 },
 
 
