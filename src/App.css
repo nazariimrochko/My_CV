@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Saira:wght@200&display=swap');
 
-
 body{
   box-sizing: border-box;
   font-family: 'Saira', sans-serif;
 }
-
 .container {
   display: flex;
   justify-content: space-between;
