@@ -15,7 +15,8 @@ const store = {
                 'I\'ll consider all types of professional opportunities be I am really enthusiastic about programming',
             title: 'About me',
         },
-        work: {
+        work: [
+            {
             company: '"Dynar.com.ua"',
             time: ' August 2018 — January 2020',
             position: 'Head of technological and production process',
@@ -24,16 +25,19 @@ const store = {
                 ' Working with people, as well as the production of goods and ' +
                 'quality control is an interesting and creative process.',
             title: 'Work Experience',
-        },
-        education: {
-            place: 'Lviv. Ukraine',
-            time: '(September 2011 - May 2014)',
-            position: 'Car mechanic',
-            description: 'College of Computer Technology and Construction.' +
-                        'I studied the structure and principle of operation of the car engine,' +
-                        ' as well as repair and maintenance of the car',
-            title: 'Education',
-        },
+            },
+        ],
+        education: [
+            {
+                place: 'Lviv. Ukraine',
+                time: '(September 2011 - May 2014)',
+                position: 'Car mechanic',
+                description: 'College of Computer Technology and Construction.' +
+                    'I studied the structure and principle of operation of the car engine,' +
+                    ' as well as repair and maintenance of the car',
+                title: 'Education',
+            },
+        ],
         project: {
             list: [
                 {

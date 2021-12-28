@@ -3,7 +3,7 @@ import s from './SectionNav.module.css'
 import BlockPhoto from "./componentsNav/BlockPhoto";
 import Button from "../shared/Button";
 import sb from "../shared/Button.module.css";
-import SectionList from "./componentsNav/SectionList";
+import ContentList from "./componentsNav/ContentList";
 import BlockInfo from "./componentsNav/BlockInfo";
 
 const SectionNav = ({store}) => {
@@ -18,7 +18,7 @@ const SectionNav = ({store}) => {
             <div key={index}>
                 <Button onClickHandler={setActiveHandler} text={item.title}
                         style={sb.button2}/>
-                <SectionList active={active[index]} personInfo={item.items}/>
+                <ContentList active={active[index]} personInfo={item.items}/>
             </div>
         )
     })
@@ -29,7 +29,7 @@ const SectionNav = ({store}) => {
             <Button text={store.contact.title} style={sb.title}/>
             <BlockInfo personInfo={store.contact}/>
             <Button text={store.languages.title} style={sb.title}/>
-            <SectionList active={true} personInfo={store.languages.items}/>
+            <ContentList active={true} personInfo={store.languages.items}/>
             {detailsSection}
         </section>
     );

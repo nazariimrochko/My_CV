@@ -2,19 +2,15 @@ import React from 'react';
 import s from "../SectionMain.module.css";
 
 const ContentBox = ({content, active}) => {
+    const {company, time, place, position, description,list} = content
 
-    const {company, time, place, position, description} = content
-    let contentList = ''
-
-    if (content.list !== undefined) {
-        contentList = content.list.map((item, index) => {
-            return (
-                <li key={index}>
-                    <a href={item.link}>{item.name}</a>
-                </li>
-            )
-        })
-    }
+    const contentList = list?.map((item, index) => {
+        return (
+            <li key={index}>
+                <a href={item.link}>{item.name}</a>
+            </li>
+        )
+    })
 
     return (
         <div className={active ? `${s.content} ${s.active}` : s.content}>

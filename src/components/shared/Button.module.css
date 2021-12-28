@@ -15,7 +15,6 @@
     rgba(255, 175, 104, 0.44861694677871145) 100%);
 }
 
-.active,
 .button1:hover {
     background-color: #f3d6a2;
 }
@@ -35,10 +34,14 @@
     background-color: #fff;
 }
 
-.button2:active,
+
 .button2:hover {
     background: rgb(255, 255, 255);
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 50%, rgba(104, 254, 255, 0.19931722689075626) 100%);
+}
+
+.button2:active{
+    box-shadow: inset 0 0 3px 1px #7e7e7e;
 }
 
 .title {

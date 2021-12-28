@@ -1,7 +1,7 @@
 import React from 'react';
 import s from '../SectionNav.module.css'
 
-const SectionList = ({personInfo, active}) => {
+const ContentList = ({personInfo, active}) => {
 
     let contentList = personInfo.map((item, index) => <li key={index}>{item}</li>)
 
@@ -12,4 +12,4 @@ const SectionList = ({personInfo, active}) => {
     );
 };
 
-export default SectionList;
+export default ContentList;

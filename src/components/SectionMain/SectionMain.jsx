@@ -10,7 +10,7 @@ import ContentBox from "./componentsMain/ContentBox";
 const SectionMain = ({store}) => {
     const [active, setActive] = useState({})
 
-    const getContentBox = [store.work, store.education, store.project].map((item, index) => {
+    const getContentBox = [...store.work, ...store.education, store.project].map((item, index) => {
 
         const setActiveHandler = () => {
             setActive({...active, ...{[index]: !active[index]}})
