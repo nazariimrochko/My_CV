@@ -68,6 +68,10 @@ const store = {
                     link: 'https://github.com/nazariimrochko/Hover-board',
                     name: 'Hover-board_____[HTML_CSS_JavaScript]'
                 },
+                {
+                    link: 'https://github.com/nazariimrochko/Pizza-shop-React-js',
+                    name: 'React-Pizza_____[React_JavaScript_SASS]'
+                },
 
 
             ],
